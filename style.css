@@ -1,4 +1,4 @@
-body {margin:0;padding:0;height: 100vh;font-family:serif; font-family: "Lexend Deca", sans-serif;
+body {margin:0;padding:0;font-family:serif; font-family: "Lexend Deca", sans-serif;
     font-style: normal;background-color:black;}
 bi{cursor:crosshair;}
 /* NAVBAR CSS */
@@ -17,7 +17,7 @@ border: 1px solid #ccc;border-radius:15px;padding: 5px;box-shadow: 0 2px 8px rgb
 
 /* HERO */
 #hero{
-    position:relative;height:115Vh;width:100%;
+    position:relative;height:100vh;width:100%;
     background:radial-gradient(rgba(7, 7, 3, 0.9),rgb(105, 105, 0)),
         url('https://images.pexels.com/photos/333304/pexels-photo-333304.jpeg');background-blend-mode: overlay;background-size: cover;background-position: center;background-position:center;background-repeat:no-repeat;background-size:cover;
 }
@@ -83,7 +83,7 @@ border: 1px solid #ccc;border-radius:15px;padding: 5px;box-shadow: 0 2px 8px rgb
 /* NEWS & BLOG */
 #news{background-color:#28290E;}
 #news::before{
-    content:" ";position: absolute;height:100%;width:100%;top:0;left:0;background-image:linear-gradient(to top,black,rgba(0,0,0,0.3));background-position:center;background-repeat:no-repeat;background-size:cover;clip-path:polygon(100% 0, 69% 44%, 77% 53%, 0 100%, 32% 59%, 15% 48%, 44% 0);}
+    content:" ";position: absolute;height:100%;width:100%;top:0;left:0;background-image:linear-gradient(to top,black,rgba(0,0,0,0.3));background-position:center;background-repeat:no-repeat;background-size:cover;clip-path:polygon(100% 0, 69% 44%, 77% 53%, 0 100%, 32% 59%, 15% 48%, 44% 0); }
 /* NEWS & BLOG */
 
 /* Home Page CSS */
