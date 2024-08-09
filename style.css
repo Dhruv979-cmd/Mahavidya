@@ -1,0 +1,89 @@
+body {margin:0;padding:0;height: 100vh;font-family:serif; font-family: "Lexend Deca", sans-serif;
+    font-style: normal;background-color:black;}
+bi{cursor:crosshair;}
+/* NAVBAR CSS */
+#srch-bar {position: relative;}
+.search-bar {opacity:0;position: absolute;top:50%;left: 50%;transform:translate(-85%,-50%);width:0px;background-color: white;
+border: 1px solid #ccc;border-radius:15px;padding: 5px;box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);z-index: 1000;transition:all 0.5s;}
+#srch-bar:hover .search-bar {opacity:1;width:200px;}
+.search-bar input {width: 100%;border: none;outline: none;}
+#wlogo{height:60px;width:720%;background-image:url('img/LOGO.png');background-position:center;background-repeat:no-repeat;background-size:100%;color:transparent;}
+.navbar-nav .nav-link.active{
+    border:1px solid yellow;border-radius:0 0 25px 25px;
+}
+/* NAVBAR CSS */
+
+/* Home Page CSS */
+
+/* HERO */
+#hero{
+    position:relative;height:115Vh;width:100%;
+    background:radial-gradient(rgba(7, 7, 3, 0.9),rgb(105, 105, 0)),
+        url('https://images.pexels.com/photos/333304/pexels-photo-333304.jpeg');background-blend-mode: overlay;background-size: cover;background-position: center;background-position:center;background-repeat:no-repeat;background-size:cover;
+}
+#hero::before{
+    content:" ";position: absolute;height:100%;width:100%;top:0;left:0;background-image:radial-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3));background-position:center;background-repeat:no-repeat;background-size:cover;clip-path:polygon(3% 0, 55% 0, 97% 100%, 41% 100%);
+}
+#intro{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);height:40%;width:500px;line-height:2.5;padding:15px;}
+/* HERO */
+
+/* ABOUT */
+ /* Crausol css */
+ .scroll-container{display:flex;flex-direction:row;height:327px;overflow-x:scroll;}
+ .scroll-container::-webkit-scrollbar {height:12px;}
+ .scroll-container::-webkit-scrollbar-thumb {background-color:yellow;border-radius:50px;}
+ .scroll-container::-webkit-scrollbar-track { border:1px solid yellow;border-radius:50px;}
+ .image-container {position: relative;width:300px;height:300px;background-size: cover;background-position:center;background-repeat:no-repeat;flex: 0 0 auto;overflow: hidden;margin-bottom: 10px; }
+  /* crausol css */
+ #about{height:85%;}
+ @media (max-width: 992px) {
+    #about{
+        height:105%;
+    }
+}
+ #about::before{
+    content:" ";position: absolute;height:100%;width:100%;top:0;left:0;background-image:radial-gradient(rgba(44, 46, 16, 0.9),black);background-position:center;background-repeat:no-repeat;background-size:cover;clip-path:polygon(47% 0, 100% 0, 56% 100%, 0% 100%);
+    z-index:-10;
+ }
+.testinomal{
+    position: relative;height:300px;
+    /* border:2px solid yellow; */
+    background-color:rgba(253, 191, 6,0.5);
+}
+.testinomal::before{
+    content:" ";position: absolute;height:100%;width:100%;top:0;left:0;background-image:radial-gradient(rgba(44, 46, 16, 0.9),black);background-position:center;background-repeat:no-repeat;background-size:cover;clip-path:polygon(100% 0, 69% 44%, 77% 53%, 0 100%, 32% 59%, 15% 48%, 44% 0);
+ }
+ .testinomal h5{width:50%;left:20%;top:15%;font-family:'Courier New', Courier, monospace;text-align:center;color:yellow}
+ .testinomal h4{left:35%;top:77%;color:black;}
+/* ABOUT */
+
+
+ /* STOERE */
+#store{
+    height:auto;
+}
+#store::before{
+    content:" ";position: absolute;height:100%;width:100%;top:0;left:0;background-image:radial-gradient(rgba(44, 46, 16, 0.9),rgba(44, 46, 16, 0.9),rgba(44, 46, 16, 0.9),black);background-position:center;background-repeat:no-repeat;background-size:cover;
+    clip-path:polygon(0 0, 56% 0, 100% 50%, 100% 100%, 0 100%, 30% 48%);
+    z-index:-10;
+}   
+/* CRAUSOL CODE FOR OVERLAY ON BOOKS */
+.overlay {
+    position: absolute;top: 0;left: 0;width:100%;height: 100%;background-color:rgba(0,0,0,0.9);color: white;
+    display: flex;align-items: center;justify-content: center;opacity: 0;transition: opacity 0.5s ease;transition:all 0.8s;
+}
+.image-container:hover .overlay {    opacity: 1;}
+.overlay-text {    text-align: center;}
+.tape{
+    position: relative;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;width:50%;left:-8%;top: 7%;font-size:20px;height: 12%;text-align: center;background-color: black;color: gold;border-radius:0px 50px 50px 0px;
+}
+/* STORE */
+
+
+/* NEWS & BLOG */
+#news{background-color:#28290E;}
+#news::before{
+    content:" ";position: absolute;height:100%;width:100%;top:0;left:0;background-image:linear-gradient(to top,black,rgba(0,0,0,0.3));background-position:center;background-repeat:no-repeat;background-size:cover;clip-path:polygon(100% 0, 69% 44%, 77% 53%, 0 100%, 32% 59%, 15% 48%, 44% 0);}
+/* NEWS & BLOG */
+
+/* Home Page CSS */
